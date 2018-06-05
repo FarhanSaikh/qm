@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "1080100281704",
+    "firebase_url": "https://quizmoney-b2e5a.firebaseio.com",
+    "project_id": "quizmoney-b2e5a",
+    "storage_bucket": "quizmoney-b2e5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080100281704:android:79b5152c48779d33",
+        "android_client_info": {
+          "package_name": "com.a2zdaddy.quizmoney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080100281704-88qa30mgi9bdpkboufegsrcnh6mpuvm2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.a2zdaddy.quizmoney",
+            "certificate_hash": "61308cb178b5c1f8ffe92ae3f8cccb91ebddc9c5"
+          }
+        },
+        {
+          "client_id": "1080100281704-la76159s915m062ej9khvvhtuos36ufa.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1080100281704-la76159s915m062ej9khvvhtuos36ufa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOE7bt5qh1QL2zlxLzgx8V47oWiIxSk-U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080100281704-la76159s915m062ej9khvvhtuos36ufa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

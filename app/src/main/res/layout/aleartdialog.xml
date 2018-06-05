@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:background="@drawable/quizbackground"
+    android:padding="2dp"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+          android:drawableStart="@drawable/correct"
+             android:id="@+id/correct"
+        android:text="Correct Answer"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_marginStart="30dp"
+        android:gravity="center"
+
+        android:drawablePadding="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_below="@+id/correct"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/quizbackground"
+
+        android:text="You have own"
+
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/body"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:paddingBottom="16dp"
+        android:layout_below="@+id/title"
+        >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#00FFFFFF"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:contentDescription="image"
+            android:src="@mipmap/coin" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:text="400"
+            android:id="@+id/coin"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginEnd="70dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="70dp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:text="Coins"
+            android:id="@+id/coinssss"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginStart="50dp" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/body"
+        android:weightSum="2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:textColor="#fff"
+            android:layout_marginTop="35dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:id="@+id/cancel"
+            android:layout_margin="5dp"
+            android:background="@drawable/buttonstyle"
+            android:layout_height="wrap_content"
+            android:text="Cancel"/>
+        <Button
+            android:textColor="#fff"
+            android:layout_marginTop="35dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttonstyle"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:id="@+id/claim"
+            android:layout_height="wrap_content"
+            android:text="Claim"/>
+    </LinearLayout>
+
+</RelativeLayout>

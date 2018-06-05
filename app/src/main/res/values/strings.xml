@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Play Quiz &amp; Earn</string>
+    <string name="close">Do you want to Exit? please give 5 star ratings before you exit the application!</string>
+    <string name="dialogueClose">Do you want to exit? please give five-star ratings before exiting the application</string>
+    <string name="exit">Exit App?</string>
+    <string-array name="payment_method">
+        <item>PayTm</item>
+        <item>Recharge My Number</item>
+        <item>Paypal</item>
+    </string-array>
+    <string name="spinner_title">Select Payment Method</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="play_earn"><![CDATA[Play & Earn]]></string>
+    <string name="how_to_play_earn"><![CDATA[How To Play & Earn]]></string>
+    <string name="ready">Start the Quiz?</string>
+    <string name="appname"><![CDATA[Play Quiz & Earn]]></string>
+    <string name="refercode"><![CDATA[Refer code Applied & Coins Credited]]></string>
+    <string name="tt">------</string>
+</resources>

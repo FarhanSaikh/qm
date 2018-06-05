@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/gradientbackground"
+    android:orientation="vertical"
+    tools:context="com.a2zdaddy.quizmoney.PlayQuiz">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/coinbtn"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="@string/tt"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:background="@drawable/coinbtn"
+            android:visibility="visible"
+            android:id="@+id/msgg1"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#ff3333"
+            />
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonbackg"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   Score :  "
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/score_text"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/score"
+            android:text="0"
+            android:textColor="#fff"
+
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:textColor="#fff"
+
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/qustioncount"
+            android:text="0"
+            android:textColor="#fff"
+
+            android:textStyle="bold"
+            android:layout_alignLeft="@id/score"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/text_view_countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="40dp"
+            android:text="00:00"
+
+            android:textColor="#fff"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#f70964"
+        android:layout_marginBottom="10dp"
+        android:text="Which thing is alive?" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="bird"
+        android:textSize="10sp"
+        android:textColor="#fff"
+        android:background="@drawable/quizbackground"
+        android:textStyle="bold"
+
+        android:layout_marginBottom="5dp"
+        android:id="@+id/choice1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="door"
+        android:textColor="#fff"
+        android:textSize="10sp"
+
+        android:background="@drawable/quizbackground"
+
+        android:textStyle="bold"
+
+        android:layout_marginBottom="5dp"
+        android:id="@+id/choice2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/quizbackground"
+        android:textColor="#fff"
+        android:textSize="10sp"
+
+        android:text="rock"
+        android:textStyle="bold"
+
+        android:layout_marginBottom="5dp"
+        android:id="@+id/choice3"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/quizbackground"
+        android:textColor="#fff"
+        android:textSize="10sp"
+
+        android:text="rock"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/choice4"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="quit"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonbackg"
+            android:textColor="#ffffff"
+            android:id="@+id/quit"/>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="8dp"
+            ads:adUnitId="ca-app-pub-8829795590534646/1759737259"
+            >
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+</LinearLayout>
